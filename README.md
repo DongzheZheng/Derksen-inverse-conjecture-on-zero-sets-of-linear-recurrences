@@ -1,0 +1,1 @@
+# Derksen-inverse-conjecture-on-zero-sets-of-linear-recurrences
