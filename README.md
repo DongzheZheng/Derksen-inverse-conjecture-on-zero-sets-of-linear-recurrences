@@ -25,9 +25,9 @@ example (p : ℕ) [Fact p.Prime] (S : Set ℕ)
 
 For $q=p^e$ with $e\geq1$, an elementary $p$-nested set has the form
 
-$$
-\left\{c_0+\sum_{i=1}^{r}c_iq^{k_i}:k_i\geq0\right\}\cap\mathbb N_0,
-$$
+```math
+\left\lbrace c_0+\sum_{i=1}^{r}c_iq^{k_i}:k_i\geq0\right\rbrace\cap\mathbb N_0,
+```
 
 Here $r\geq1$, the coefficients $c_0,\ldots,c_r$ are rational, and the variable weights $c_1,\ldots,c_r$ are nonzero with at least one positive weight. The exponents vary independently, $(q-1)c_i\in\mathbb Z$ for $0\leq i\leq r$, and $\sum_{i=0}^{r}c_i\in\mathbb Z$. A $p$-normal set differs by finitely many elements from a finite union of such sets, finite sets, and infinite arithmetic progressions. These definitions are in [Normal.lean](ArithDyn/Derksen/Normal.lean).
 
